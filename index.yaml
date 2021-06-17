@@ -3,13 +3,13 @@ entries:
   lte-orc8r:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-06-17T00:04:15.420639884Z"
+    created: "2021-06-17T00:06:11.369598002Z"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
       version: 0.1.2
     description: A Helm chart for magma orchestrator's lte module
-    digest: d6ac1c303a15b4445b4d81af98f31eff2c475318293bfae252acf521c0538ff4
+    digest: 5f2b4c13a0239f9998ecd9f621bc76be8595482e1960b279cca86b65c674cd3c
     keywords:
     - magma
     - or8cr
@@ -23,7 +23,7 @@ entries:
   orc8r:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-06-17T00:04:15.442053625Z"
+    created: "2021-06-17T00:06:11.384822431Z"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -45,7 +45,7 @@ entries:
       repository: file://../orc8rlib
       version: 0.1.2
     description: A Helm chart for magma orchestrator
-    digest: fa86ef9d2cc11e79af61691b5b827f6654504701fd0c9ee4b01c0f9d07954650
+    digest: cf8b0cc2c56fbbac82839f6399a4b8619a8e09b2e4e4e4d04f56e53651f69999
     keywords:
     - magma
     - or8cr
@@ -55,4 +55,4 @@ entries:
     urls:
     - orc8r-1.5.16.tgz
     version: 1.5.16
-generated: "2021-06-17T00:04:15.418256143Z"
+generated: "2021-06-17T00:06:11.366511204Z"
